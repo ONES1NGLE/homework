@@ -1,0 +1,36 @@
+.block_1 {
+  background: #555151;
+}
+
+.block_in {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.str_1 {
+  color: rgb(161, 77, 240);
+}
+
+.str_2 {
+  display: inline-block;
+  color: white;
+  background-color: #6f28a0;
+  padding: 2px; 
+  margin: 2px; 
+  text-align: center;
+}
+
+.block_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 300px;
+  background: rgb(180, 117, 239);
+}
+p{
+  margin: 0;
+}
+.text_1 {
+  color: white;
+}
