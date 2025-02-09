@@ -1,0 +1,36 @@
+.unline {
+   font-family: "Open Sans", serif;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 300;
+   font-style: normal;
+   text-decoration: line-through;
+
+}
+
+.line_uppercase {
+   font-family: "Open Sans", serif;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 300;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.line_space {
+   font-family: "Open Sans", serif;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 300;
+   font-style: normal;
+   word-spacing: 30px;
+}
+
+.word_space {
+   font-family: "Open Sans", serif;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 300;
+   font-style: normal;
+   letter-spacing: 5px;
+}
