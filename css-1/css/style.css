@@ -24,6 +24,8 @@
    font-weight: 300;
    font-style: normal;
    word-spacing: 30px;
+   text-decoration: wavy overline pink;
+   color: pink;
 }
 
 .word_space {
@@ -33,4 +35,5 @@
    font-weight: 300;
    font-style: normal;
    letter-spacing: 5px;
+   text-decoration: double underline;
 }
