@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #333;
+    border-radius: 10px;
+    border: 2px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.progress {
+    position: absolute;
+    top: -120px;
+    left: -140%; /* начинается строго слева */
+    width: 0; /* ширина прогресс-бара */
+    height: 40px;
+    background-color: orange;
+    transition: width 1s linear;
+    z-index: 1;
+  }
+
+.box:hover .progress {
+    width: 800px;
+    /* растягиваем до нужной ширины */
+}
+
+/* Сообщение */
+.message {
+    font-size: 30px;
+    color: lime;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease 1s;
+    /* появится через 2 секунды */
+}
+
+
+.box:hover .message {
+    opacity: 2;
+}
