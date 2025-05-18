@@ -23,6 +23,11 @@ body {
     line-height: 1.5;
 }
 
+.hero__title {
+    text-align: center;
+}
+
+
 .header__inner {
     min-height: 108px;
     display: grid;
