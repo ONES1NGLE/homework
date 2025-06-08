@@ -599,6 +599,10 @@
     opacity: 1;
 }
 
+address {
+    font-style: normal;
+}
+
 .footer__contact-list {}
 
 .footer__contact-item {
