@@ -195,6 +195,10 @@
     visibility: visible;
 }
 
+.address {
+    font-style: normal;
+}
+
 /* ========================================================= */
 
 .header {
