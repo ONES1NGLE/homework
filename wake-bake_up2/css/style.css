@@ -120,8 +120,7 @@
 .modal__text {
     margin-bottom: 30px;
 }
-.modal__form {
-}
+
 
 .modal__form-label {
     margin-bottom: 10px;
@@ -195,14 +194,13 @@
     width: 100%;
 }
 
-.nav {}
+
 
 .nav__list {
     display: flex;
     gap: 4vh 40px;
 }
 
-.nav__item {}
 
 .nav__link {
     display: block;
@@ -407,7 +405,7 @@
 
 /* ========================================================= */
 
-.about {}
+
 
 .about__inner {
     display: grid;
@@ -472,7 +470,7 @@
     opacity: 1;
 }
 
-.about__body {}
+
 
 .about__heading {
     margin-bottom: 30px;
@@ -485,10 +483,9 @@
     color: var(--accent-text);
 }
 
-.about__title-text {}
 
-.about__text {
-}
+
+
 
 .about__grid {
     display: grid;
@@ -516,7 +513,7 @@
     justify-content: center;
 }
 
-.about__grid-text {}
+
 
 /* ========================================================= */
 
@@ -603,7 +600,7 @@ address {
     font-style: normal;
 }
 
-.footer__contact-list {}
+
 
 .footer__contact-item {
     margin-bottom: 10px;
@@ -642,7 +639,6 @@ address {
     gap: 15px;
 }
 
-.socials__item {}
 
 .socials__link path {
     transition: var(--transition);

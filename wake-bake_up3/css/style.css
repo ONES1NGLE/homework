@@ -139,7 +139,7 @@
     margin-bottom: 30px;
 }
 
-.modal__form {}
+
 
 .modal__form-label {
     margin-bottom: 10px;
@@ -224,14 +224,14 @@ address {
     width: 100%;
 }
 
-.nav {}
+
 
 .nav__list {
     display: flex;
     gap: 4vh 40px;
 }
 
-.nav__item {}
+
 
 .nav__link {
     display: block;
@@ -433,7 +433,7 @@ address {
 
 /* ========================================================= */
 
-.about {}
+
 
 .about__inner {
     display: grid;
@@ -498,17 +498,13 @@ address {
     opacity: 1;
 }
 
-.about__body {}
+
 
 .about__heading {
     margin-bottom: 30px;
 }
 
-.about__title {}
 
-.about__title-text {}
-
-.about__text {}
 
 .about__grid {
     display: grid;
@@ -536,11 +532,10 @@ address {
     justify-content: center;
 }
 
-.about__grid-text {}
+
 
 /* ========================================================= */
 
-.program {}
 
 .program__top {
     display: flex;
@@ -554,7 +549,7 @@ address {
     margin-bottom: 20px;
 }
 
-.program__text {}
+
 
 .program__tab-content {
     margin-bottom: 40px;
@@ -612,7 +607,7 @@ address {
     margin-left: 35%;
 }
 
-.program__price {}
+
 
 .program__price-text {
     line-height: 1.6;
@@ -645,7 +640,7 @@ address {
     gap: 26px;
 }
 
-.tab-conrols__item {}
+
 
 .tab-conrols__link {
     display: block;
@@ -674,7 +669,7 @@ address {
     display: block;
 }
 
-.accordion-list {}
+
 
 .accordion-list__item {
     border: 1px solid var(--accent-color);
@@ -687,7 +682,7 @@ address {
     margin-bottom: 0;
 }
 
-.accordion-list__item--opened {}
+
 
 .accordion-list__control {
     padding: 41px 30px;
@@ -710,7 +705,7 @@ address {
     padding-bottom: 20px;
 }
 
-.accordion-list__control-title {}
+
 
 .accordion-list__control-icon {
     width: 36px;
@@ -775,7 +770,7 @@ address {
     margin-bottom: 20px;
 }
 
-.accordion-content__list {}
+
 
 .accordion-content__item {
     margin-bottom: 20px;
@@ -886,7 +881,7 @@ address {
     opacity: 1;
 }
 
-.footer__contact-list {}
+
 
 .footer__contact-item {
     margin-bottom: 10px;
@@ -925,7 +920,6 @@ address {
     gap: 15px;
 }
 
-.socials__item {}
 
 .socials__link path {
     transition: var(--transition);
