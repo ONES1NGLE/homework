@@ -11,9 +11,11 @@
 
 @media (max-width: 1650px) {
 
- 
+
+
    .container {
-      margin: 0 50px
+      margin: 0 auto;
+      padding: 0 24px;
    }
 
    .icon-desktop {
@@ -21,7 +23,8 @@
    }
 
    .icon-mobile {
-      display: block;
+      z-index: 20;
+      display: flex;
    }
 
    .hero-support {
@@ -49,22 +52,26 @@
       top: auto;
    }
 
-   .hero-support-group--mobile {
-   display: none;
-}
+   .hero-support-group--desktop {
+      display: none;
+   }
 }
 
 @media (max-width: 1200px) {
    .container {
-      max-width: 1100px;
-      margin: 0 50px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
    }
-   
+
 }
 
 @media (max-width: 900px) {
 
-   
+   .container {
+      margin: 0 auto;
+   }
+
    .hero-support-group--desktop {
       display: none;
    }
@@ -159,6 +166,11 @@
 }
 
 @media (max-width: 600px) {
+   .container {
+      max-width: 400px;
+      margin: 0 auto;
+   }
+
 
    .header_phone_desktop,
    .header_number {
@@ -180,7 +192,8 @@
 @media (max-width: 470px) {
 
    .container {
-      max-width: 300px;
+      max-width: 400px;
+      margin: 0 auto;
    }
 
    .hero_title {
