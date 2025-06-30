@@ -15,12 +15,6 @@
 - Многостраничная навигация, интерактивные элементы
 - Продуманная структура файлов, легко расширяется под новые задачи
 
-**Скриншоты:**
-<p>
-  <img src="https://github.com/ONES1NGLE/homework/raw/main/wake-bake_final/screens/preview1.png" width="400"/>
-  <img src="https://github.com/ONES1NGLE/homework/raw/main/wake-bake_final/screens/preview2.png" width="400"/>
-</p>
-
 ---
 
 ## 📂 Структура репозитория
