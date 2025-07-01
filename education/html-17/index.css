@@ -1,0 +1,53 @@
+nav {
+   background: chocolate;
+   width: 100%;
+   height: 60px;
+}
+
+nav a {
+   text-decoration: none;
+   color: black;
+}
+
+.quote {
+   background-color: #f5f0e6;
+   border-left: 6px solid #d2aa6d;
+   margin: 20px;
+   padding: 20px;
+   font-style: italic;
+   font-family: Georgia, serif;
+   color: #333;
+   border-radius: 5px;
+}
+
+.quote div {
+   text-align: right;
+   margin-top: 10px;
+   font-weight: bold;
+   color: #666;
+}
+
+.quote a {
+   color: #b45f06;
+   text-decoration: none;
+}
+
+.quote a:hover {
+   text-decoration: underline;
+}
+
+.footer {
+   background: #6f1ea5;
+   width: 100%;
+   height: 300px;
+}
+
+.custom-list {
+   list-style: disc inside;
+   color: white;
+}
+
+footer p,
+a {
+   color: #f5f0e6;
+}

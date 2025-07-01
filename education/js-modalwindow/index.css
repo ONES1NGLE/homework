@@ -1,0 +1,101 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+
+.body{
+   min-height: 200vh;
+   background: #f7f7f7;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   padding-top: 100px;
+}
+
+.body--fixed{
+   overflow-y: hidden;
+}
+
+.btn-open {
+     padding: 15px 40px;
+   font-size: 24px;
+   border: none;
+   border-radius: 12px;
+   background: #007bff;
+   color: white;
+   cursor: pointer;
+   transition: background 0.3s, transform 0.2s;
+   box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn-open:hover {
+   background: #0056b3;
+   transform: scale(1.03);
+}
+.modal {
+   position: fixed;
+   inset: 0;
+   z-index: 10;
+   background: rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.3s ease;
+   pointer-events: none;
+}
+
+.modal--open{
+   opacity: 1;
+   visibility: visible;
+   pointer-events: auto;
+}
+
+.modal__window {
+   position: relative;
+   width: 90%;
+   max-width: 500px;
+   max-height: 80vh;
+   background: #ffffff;
+   border-radius: 16px;
+   padding: 30px 20px 20px 20px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+   overflow-y: auto;
+   animation: fadeInScale 0.3s ease;
+}
+
+
+@keyframes fadeInScale {
+   from {
+      opacity: 0;
+      transform: scale(0.95);
+   }
+   to {
+      opacity: 1;
+      transform: scale(1);
+   }
+}
+
+.modal__window-btn {
+    position: absolute;
+   top: 10px;
+   right: 10px;
+   width: 35px;
+   height: 35px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #be1616;
+   background: #f0f0f0;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: background 0.2s, transform 0.2s;
+}
+
+.modal__window-btn:hover {
+   background: #958181;
+   transform: scale(1.1);
+}

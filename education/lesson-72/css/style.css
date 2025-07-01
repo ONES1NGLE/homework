@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #333;
+    border-radius: 10px;
+    border: 2px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.progress {
+    position: absolute;
+    top: -120px;
+    left: -140%;
+    width: 0;
+    height: 40px;
+    background-color: orange;
+    transition: width 1s linear;
+    z-index: 1;
+  }
+
+.box:hover .progress {
+    width: 800px;
+}
+
+
+.message {
+    font-size: 30px;
+    color: lime;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease 1s;
+    caret-color: transparent;
+}
+
+
+.box:hover .message {
+    opacity: 1;
+}
